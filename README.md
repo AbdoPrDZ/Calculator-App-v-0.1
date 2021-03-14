@@ -12,9 +12,8 @@ This simple application and the first of my Android applications, from this appl
 ## Some notes on project
 
 In fact, in my project, I used a small educational course on YouTube, as I am a beginner, but I added my own touch in order to shorten many commands, it is in the course when I put the buttons it gave all the buttons its own function when pressed, but I have set one function that collects all the commands With the removal of redundancy, of course.
-The job you created is:
+The function you created is:
 ```Java
-
 public void ButtonClick(View view) {
   int curpos = equation_ent.getSelectionStart(); // Get cursor position
   int textlen = equation_ent.getText().length(); // Get equation length
@@ -116,7 +115,6 @@ public void ButtonClick(View view) {
       break;
   }
 }
-
 ```
 This is all that I added and others, but there are some errors that I could not solve, namely:
 1. The color of the buttons, although I changed their color in the min file, but they did not change as they remained the same.
@@ -124,6 +122,10 @@ This is all that I added and others, but there are some errors that I could not 
 3. This is not a mistake. I feel that there is another way, which is to remove the address line at the top, as I did not find my activism empty without that line, so I used a small code to remove it
 That's all for the project, I am open to any suggestions, comments and criticisms
 Meet you in other projects.
+
+This Tutorial link: [Android Studio Calculator App](https://www.youtube.com/playlist?list=PLcSIMAULmMyd6p8lSBtOoC_TutRMsnZOc)
+
+Source code link: [Android Calculator App v 0.1](https://github.com/AIabdoPr/Calculator-App-v-0.1.git)
 
 ## My links for connect
 [Youtube Channel](https://www.youtube.com/channel/UCrUlwWUF9y7wE7AD12XSbRw)
